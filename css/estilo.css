@@ -1,13 +1,22 @@
-h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-ul{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
  body{
-    background-color: bisque;
+    
+  background-color: bisque;
+
   }
   p{
    text-align: center;
   }
-  ul{text-align: center;
-    font-size: 15px;
+  ul{
+    text-align: left;
+
+    font-size: 25px;
+    front font-style: italic;
   
   }
   body {
@@ -33,4 +42,34 @@ h2{
 h3{
   background-color: rgb(194, 139, 67);
   font-size: 30px;
+}
+a{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+}
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .btn-wsp{
+      width:63px;
+      height:63px;
+      line-height: 66px;
+}
 }
